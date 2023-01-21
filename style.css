@@ -112,3 +112,17 @@ input:checked {
     display: none;
   }
 }
+
+::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+  
+::-webkit-scrollbar-thumb {
+  background-color: #8b5cf6;   
+  border-radius: 10px;
+}
